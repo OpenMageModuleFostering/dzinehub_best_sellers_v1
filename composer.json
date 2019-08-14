@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/dzinehub_best_sellers_v1",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPL)",
+    "homepage": "",
+    "description": "To display the list of best selling products in your Magento store homepage, product page or any other page on the website.",
+    "authors": [
+    {
+        "name": "Arun",
+        "email": "arun@dzine-hub.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>dzinehub_best_sellers_v1</name>
+    <version>1.0.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/gpl-license.php">GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>To display the list of best selling products in your Magento store homepage, product page or any other page on the website.</summary>
+    <description>Dynamically retrieved list of best selling products, sorted based on the number of items sold. Display this list of hot selling products on your website using our simple extension. For any support inquiries, contact us at www.dzine-hub.com/contact</description>
+    <notes>Tested to work with magento v1.9, v 1.8, v1.7, v1.6 and v1.5</notes>
+    <authors><author><name>Arun</name><user>Arun</user><email>arun@dzine-hub.com</email></author></authors>
+    <date>2015-03-12</date>
+    <time>08:08:40</time>
+    <contents><target name="magecommunity"><dir name="Dzinehub"><dir name="Bestseller"><dir><dir name="Block"><dir name="Product"><file name="Bestsellers.php" hash="39064f3d67406f4b292976bd62ba6aa6"/></dir></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Enabledisable.php" hash="cc907542cfe11f4d5aa4fb537c3584e9"/><file name="Yesno.php" hash="b506c229f70bf2101f244e8191f9a3bd"/></dir></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="ee3b113cd5af9aef4464f1ffeff28c54"/><file name="config.xml" hash="203e69c0cada6f517ecbd8ad8cd1708a"/><file name="system.xml" hash="a8d7c573be8bfb76a6d9b4d0c5804893"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="dzinehub"><file name="bestsellers.phtml" hash="2fdb55d8369ccadac82d32760a2517fd"/></dir></dir><dir name="layout"><file name="bestsellers.xml" hash="48cc42de01b9f114413504158e33783b"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Dzinehub_Bestseller.xml" hash="4aac8ed0547771e8e8033ab252ab48da"/></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="images"><dir name="dzinehub"><file name="dzinehub.png" hash="1938212479ffe381cc68af0299d7d832"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.1</min><max>6.0.0</max></php></required></dependencies>
+</package>
